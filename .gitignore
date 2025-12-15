@@ -1,0 +1,84 @@
+# Binaries and executables
+auth0-server
+main
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go build artifacts
+go.work
+go.work.sum
+
+.github/
+
+# Test binaries
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Database files (if using sqlite)
+*.db
+*.sqlite
+*.sqlite3
+
+# Build and vendor directories
+build/
+vendor/
+dist/
+
+# Process ID files
+*.pid
+
+# Memory dumps
+core
+*.dump
+
+# Backup files
+*.bak
+*.backup
+
+# Docker files
+.dockerignore
+Dockerfile.dev
+
+# Coverage reports
+coverage.out
+coverage.html
+
+# Dependency directories
+node_modules/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
